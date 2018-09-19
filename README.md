@@ -71,7 +71,7 @@ This tool is useful to ensure that all EC2 instances in a ECS cluster backed up 
 Get:
 
 ```
-go get -v -u github.com/andresvia/go-awsecs/cmd/enforce-aws-ecs-asg-launchconfig
+go get -v -u github.com/udistrital/go-awsecs/cmd/enforce-aws-ecs-asg-launchconfig
 ```
 
 Use:
