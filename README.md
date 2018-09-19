@@ -15,7 +15,7 @@ This tool is inspired by [AWS CodePipeline image definitions file method for upd
 Get:
 
 ```
-go get -v -u github.com/andresvia/go-awsecs/cmd/update-aws-ecs-service
+go get -v -u github.com/udistrital/go-awsecs/cmd/update-aws-ecs-service
 ```
 
 Use:
