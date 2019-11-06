@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/andresvia/go-awsecs/releases/tag/v1.0"
+	"github.com/andresvia/go-awsecs/releases/tag/v1.1"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/cenkalti/backoff"
