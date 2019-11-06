@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/andresvia/go-awsecs"
+	"github.com/udistrital/go-awsecs"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/aws/aws-sdk-go/service/ec2"
