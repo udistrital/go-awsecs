@@ -6,7 +6,7 @@ import (
 	"github.com/andresvia/go-awsecs"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecs"
-	//"github.com/cenkalti/backoff"
+	"github.com/cenkalti/backoff/v3"
 	"log"
 	"strings"
 )
@@ -70,7 +70,7 @@ func main() {
 		Image:        images,
 		Environment:  envs,
 		DesiredCount: int64ptr(*desiredCount),
-		//BackOff:      backoff.NewExponentialBackOff(),
+		BackOff:      backoff.NewExponentialBackOff(),
 	}
 
 	if err := esu.Apply(); err != nil {
